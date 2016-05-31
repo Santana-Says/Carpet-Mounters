@@ -16,3 +16,6 @@ C:\Users\Santana\Desktop\SchoolWork\COP2360C\Project 1\Carpet Mounters\Carpet Mo
 C:\Users\Santana\Desktop\SchoolWork\COP2360C\Project 1\Carpet Mounters\Carpet Mounters\obj\Debug\Carpet_Mounters.CarpetMounters.resources
 C:\Users\Santana\Desktop\SchoolWork\COP2360C\Project 1\Carpet Mounters\Carpet Mounters\obj\Debug\Carpet_Mounters.Properties.Resources.resources
 C:\Users\Santana\Desktop\SchoolWork\COP2360C\Project 1\Carpet Mounters\Carpet Mounters\obj\Debug\Carpet Mounters.csproj.GenerateResource.Cache
+C:\Users\Erika\OneDrive\Documents\C#\Project 1\bin\Debug\Carpet Mounters.exe.config
+C:\Users\Erika\OneDrive\Documents\C#\Project 1\obj\Debug\Carpet Mounters.exe
+C:\Users\Erika\OneDrive\Documents\C#\Project 1\obj\Debug\Carpet Mounters.pdb
