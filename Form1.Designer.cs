@@ -66,12 +66,16 @@
             this.picCarpet = new System.Windows.Forms.PictureBox();
             this.picLocation = new System.Windows.Forms.PictureBox();
             this.picBanner = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupColorScheme = new System.Windows.Forms.GroupBox();
+            this.radioBurgandy = new System.Windows.Forms.RadioButton();
+            this.radioIvory = new System.Windows.Forms.RadioButton();
+            this.RadioCharcoal = new System.Windows.Forms.RadioButton();
             this.groupInstall.SuspendLayout();
             this.groupExtras.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCarpet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLocation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBanner)).BeginInit();
+            this.groupColorScheme.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTicketNum
@@ -438,14 +442,60 @@
             this.picBanner.TabIndex = 0;
             this.picBanner.TabStop = false;
             // 
-            // groupBox1
+            // groupColorScheme
             // 
-            this.groupBox1.Location = new System.Drawing.Point(102, 406);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(595, 101);
-            this.groupBox1.TabIndex = 34;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupColorScheme.Controls.Add(this.RadioCharcoal);
+            this.groupColorScheme.Controls.Add(this.radioIvory);
+            this.groupColorScheme.Controls.Add(this.radioBurgandy);
+            this.groupColorScheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.groupColorScheme.Location = new System.Drawing.Point(162, 405);
+            this.groupColorScheme.Name = "groupColorScheme";
+            this.groupColorScheme.Size = new System.Drawing.Size(473, 90);
+            this.groupColorScheme.TabIndex = 34;
+            this.groupColorScheme.TabStop = false;
+            this.groupColorScheme.Text = "Color Scheme";
+            // 
+            // radioBurgandy
+            // 
+            this.radioBurgandy.AutoSize = true;
+            this.radioBurgandy.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.radioBurgandy.Font = new System.Drawing.Font("Malgun Gothic", 10F);
+            this.radioBurgandy.Location = new System.Drawing.Point(47, 32);
+            this.radioBurgandy.Name = "radioBurgandy";
+            this.radioBurgandy.Size = new System.Drawing.Size(72, 36);
+            this.radioBurgandy.TabIndex = 0;
+            this.radioBurgandy.TabStop = true;
+            this.radioBurgandy.Text = "Burgandy";
+            this.radioBurgandy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioBurgandy.UseVisualStyleBackColor = true;
+            // 
+            // radioIvory
+            // 
+            this.radioIvory.AutoSize = true;
+            this.radioIvory.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.radioIvory.Font = new System.Drawing.Font("Malgun Gothic", 10F);
+            this.radioIvory.Location = new System.Drawing.Point(213, 32);
+            this.radioIvory.Name = "radioIvory";
+            this.radioIvory.Size = new System.Drawing.Size(44, 36);
+            this.radioIvory.TabIndex = 1;
+            this.radioIvory.TabStop = true;
+            this.radioIvory.Text = "Ivory";
+            this.radioIvory.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioIvory.UseVisualStyleBackColor = true;
+            // 
+            // RadioCharcoal
+            // 
+            this.RadioCharcoal.AutoSize = true;
+            this.RadioCharcoal.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.RadioCharcoal.Font = new System.Drawing.Font("Malgun Gothic", 10F);
+            this.RadioCharcoal.Location = new System.Drawing.Point(379, 32);
+            this.RadioCharcoal.Name = "RadioCharcoal";
+            this.RadioCharcoal.Size = new System.Drawing.Size(67, 36);
+            this.RadioCharcoal.TabIndex = 2;
+            this.RadioCharcoal.TabStop = true;
+            this.RadioCharcoal.Text = "Charcoal";
+            this.RadioCharcoal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RadioCharcoal.UseVisualStyleBackColor = true;
             // 
             // CarpetMounters
             // 
@@ -454,7 +504,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(777, 784);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupColorScheme);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnOrder);
@@ -496,6 +546,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCarpet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLocation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBanner)).EndInit();
+            this.groupColorScheme.ResumeLayout(false);
+            this.groupColorScheme.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -540,7 +592,10 @@
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupColorScheme;
+        private System.Windows.Forms.RadioButton RadioCharcoal;
+        private System.Windows.Forms.RadioButton radioIvory;
+        private System.Windows.Forms.RadioButton radioBurgandy;
     }
 }
 
