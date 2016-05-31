@@ -388,7 +388,7 @@
             // 
             // lblTicketNum2
             // 
-            this.lblTicketNum2.BackColor = System.Drawing.SystemColors.Window;
+            this.lblTicketNum2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.lblTicketNum2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTicketNum2.Location = new System.Drawing.Point(302, 234);
             this.lblTicketNum2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
