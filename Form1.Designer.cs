@@ -359,7 +359,7 @@
             // 
             // lblTicketNum2
             // 
-            this.lblTicketNum2.BackColor = System.Drawing.SystemColors.Window;
+            this.lblTicketNum2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.lblTicketNum2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTicketNum2.Location = new System.Drawing.Point(201, 152);
             this.lblTicketNum2.Name = "lblTicketNum2";
@@ -451,6 +451,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(777, 784);
             this.Controls.Add(this.groupBox1);
