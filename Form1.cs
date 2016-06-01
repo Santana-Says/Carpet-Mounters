@@ -15,6 +15,19 @@ namespace Carpet_Mounters
         public CarpetMounters()
         {
             InitializeComponent();
+            GenerateRandom();
+        }
+
+        private void GenerateRandom()
+        {
+            //create a random number
+            Random myRandom = new Random();
+
+            //generate a random number between 1 and 10000
+            int x = myRandom.Next(1, 10000);
+
+            //display in lblOrderNumber
+            lblTicketNum2.Text = x.ToString();
         }
     }
 }
