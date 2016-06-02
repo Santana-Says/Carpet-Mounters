@@ -15,7 +15,7 @@ namespace Carpet_Mounters
         //module level variables
         int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
         double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
-
+        
         public CarpetMounters()
         {
             InitializeComponent();
@@ -59,10 +59,10 @@ namespace Carpet_Mounters
         private void CalculateRoom()
         {
             //validate room lenght and wid
-            ValidateInt(lblRoomLen.Text, lblFt1.Text, textBox6.Text, ref roomLengthFeet);
-            ValidateInt(lblRoomLen.Text, lblIn1.Text, textBox8.Text, ref roomLengthInch);
-            ValidateInt(lblRoomWid.Text, lblFt2.Text, textBox7.Text, ref roomWidthFeet);
-            ValidateInt(lblRoomWid.Text, lblIn2.Text, textBox9.Text, ref roomWidthInch);
+            ValidateInt(lblRoomLen.Text, lblFt1.Text, txtLengthFt.Text, ref roomLengthFeet);
+            ValidateInt(lblRoomLen.Text, lblIn1.Text, txtLengthIn.Text, ref roomLengthInch);
+            ValidateInt(lblRoomWid.Text, lblFt2.Text, txtWidthFt.Text, ref roomWidthFeet);
+            ValidateInt(lblRoomWid.Text, lblIn2.Text, txtWidthIn.Text, ref roomWidthInch);
 
             // convert feet to inch
             double inch1 = (roomLengthFeet * 12) + roomLengthInch;
@@ -92,33 +92,19 @@ namespace Carpet_Mounters
             lblTicketNum2.Text = x.ToString();
         }
 
-
-        //close button
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            //create a dialog result
-            DialogResult result = new DialogResult();
-
-            result = MessageBox.Show("are you sure you like to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
-            {
-                this.Close();
-            }
-        }
         //clear button
         private void btnClear_Click(object sender, EventArgs e)
         {
-            roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
-            roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            textBox4.Text = "";
-            textBox6.Text = "";
-            textBox7.Text = "";
-            textBox8.Text = "";
-            textBox9.Text = "";
+            roomLengthFeet = 0; roomLengthInch = 0; roomWidthFeet = 0; roomWidthInch = 0;
+            roomTotalFoot = 0.0; roomTotalInch = 0.0; quoteTotal = 0.0; carpetPrice = 0.0;
+            txtName.Text = "";
+            txtStreet.Text = "";
+            txtCity.Text = "";
+            txtPhone.Text = "";
+            txtLengthFt.Text = "";
+            txtWidthFt.Text = "";
+            txtLengthIn.Text = "";
+            txtWidthIn.Text = "";
 
             lblQuote2.Text = "";
             radioBurgandy.Checked = false;
@@ -128,13 +114,49 @@ namespace Carpet_Mounters
             radioSameDay.Checked = false;
             checkAllergyCoat.Checked = false;
             checkStain.Checked = false;
-
-
         }
+
         //order calculation
         private void btnOrder_Click(object sender, EventArgs e)
         {
+            //string summaryMessage = "Location Type"
             CalculateRoom();
+            //MessageBox.Show("Location Type:", "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
+
+        //link pic boxes to combo boxes
+        private void cbLocation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (cbLocation.SelectedIndex)
+            {
+                case 0:
+                    picLocation.Image = imageList1.Images["apartment.jpg"];
+                    break;
+                case 1:
+                    picLocation.Image = imageList1.Images["house.jpg"];
+                    break;
+                case 2:
+                    picLocation.Image = imageList1.Images["biz.jpg"];
+                    break;
+            }
+        }
+
+        private void cbCarpeting_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (cbCarpeting.SelectedIndex)
+            {
+                case 0:
+                    picCarpet.Image = imageList1.Images["berber.jpg"];
+                    break;
+                case 1:
+                    picCarpet.Image = imageList1.Images["pattern.jpg"];
+                    break;
+            }
         }
     }
 }
