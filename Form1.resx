@@ -120,13 +120,6 @@
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
->>>>>>> origin/Jeff
   <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>114, 17</value>
   </metadata>
@@ -1606,9 +1599,4 @@
         /wCIAAs=
 </value>
   </data>
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/origin/master
-=======
->>>>>>> origin/Jeff
 </root>

@@ -60,6 +60,32 @@ namespace Carpet_Mounters
         }
 >>>>>>> refs/remotes/origin/master
 
+
+        // function to calculate the total square foot for the room
+        private void CalculateRoom()
+        {
+            //validate room lenght and wid
+            ValidateInt(lblRoomLen.Text, lblFt1.Text, txtLengthFt.Text, ref roomLengthFeet);
+            ValidateInt(lblRoomLen.Text, lblIn1.Text, txtLengthIn.Text, ref roomLengthInch);
+            ValidateInt(lblRoomWid.Text, lblFt2.Text, txtWidthFt.Text, ref roomWidthFeet);
+            ValidateInt(lblRoomWid.Text, lblIn2.Text, txtWidthIn.Text, ref roomWidthInch);
+
+            // convert feet to inch
+            double inch1 = (roomLengthFeet * 12) + roomLengthInch;
+            double inch2 = (roomWidthFeet * 12) + roomWidthInch;
+            // calculate total inch
+            roomTotalInch = inch1 * inch2;
+
+            // convert inch back to feet rounding to feet
+            roomTotalFoot = roomTotalInch / 144;
+
+            //assing the result to the totalsq feet variable
+            roomTotalFoot = Math.Round(roomTotalFoot, 2);
+            lblTotalSQFeet.Text = roomTotalFoot.ToString();
+        }
+        
+        
+        //random number generator function 
         private void GenerateRandom()
         {
             //create a random number
@@ -93,16 +119,16 @@ namespace Carpet_Mounters
         //clear button
         private void btnClear_Click(object sender, EventArgs e)
         {
-            roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
-            roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            textBox4.Text = "";
-            textBox6.Text = "";
-            textBox7.Text = "";
-            textBox8.Text = "";
-            textBox9.Text = "";
+            roomLengthFeet = 0; roomLengthInch = 0; roomWidthFeet = 0; roomWidthInch = 0;
+            roomTotalFoot = 0.0; roomTotalInch = 0.0; quoteTotal = 0.0; carpetPrice = 0.0;
+            txtName.Text = "";
+            txtStreet.Text = "";
+            txtCity.Text = "";
+            txtPhone.Text = "";
+            txtLengthFt.Text = "";
+            txtWidthFt.Text = "";
+            txtLengthIn.Text = "";
+            txtWidthIn.Text = "";
 
             lblQuote2.Text = "";
             radioBurgandy.Checked = false;
@@ -112,10 +138,32 @@ namespace Carpet_Mounters
             radioSameDay.Checked = false;
             checkAllergyCoat.Checked = false;
             checkStain.Checked = false;
+        }
 
->>>>>>> refs/remotes/origin/master
-=======
->>>>>>> origin/Jeff
+        //order calculation
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            //string summaryMessage = "Location Type"
+            CalculateRoom();
+            //MessageBox.Show("Location Type:", "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
+
+        //link pic boxes to combo boxes
+        private void cbLocation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (cbLocation.SelectedIndex)
+            {
+                case 0:
+                    picLocation.Image = imageList1.Images["apartment.jpg"];
+                    break;
+                case 1:
+                    picLocation.Image = imageList1.Images["house.jpg"];
+                    break;
+                case 2:
+                    picLocation.Image = imageList1.Images["biz.jpg"];
+                    break;
+            }
+        }
 
         private void cbCarpeting_SelectedIndexChanged(object sender, EventArgs e)
         {

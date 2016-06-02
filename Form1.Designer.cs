@@ -41,14 +41,14 @@
             this.lblRoomWid = new System.Windows.Forms.Label();
             this.lblFt2 = new System.Windows.Forms.Label();
             this.lblIn2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtStreet = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtLengthFt = new System.Windows.Forms.TextBox();
+            this.txtWidthFt = new System.Windows.Forms.TextBox();
+            this.txtLengthIn = new System.Windows.Forms.TextBox();
+            this.txtWidthIn = new System.Windows.Forms.TextBox();
             this.cbLocation = new System.Windows.Forms.ComboBox();
             this.cbCarpeting = new System.Windows.Forms.ComboBox();
             this.groupInstall = new System.Windows.Forms.GroupBox();
@@ -71,6 +71,8 @@
             this.RadioCharcoal = new System.Windows.Forms.RadioButton();
             this.radioIvory = new System.Windows.Forms.RadioButton();
             this.radioBurgandy = new System.Windows.Forms.RadioButton();
+            this.lblTotalSQ = new System.Windows.Forms.Label();
+            this.lblTotalSQFeet = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupInstall.SuspendLayout();
             this.groupExtras.SuspendLayout();
@@ -190,101 +192,61 @@
             this.lblIn2.TabIndex = 12;
             this.lblIn2.Text = "in:";
             // 
-            // textBox1
+            // txtName
             // 
-<<<<<<< HEAD
-            this.textBox1.Location = new System.Drawing.Point(201, 183);
-=======
-            this.textBox1.Location = new System.Drawing.Point(268, 225);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 13;
+            this.txtName.Location = new System.Drawing.Point(201, 183);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.TabIndex = 13;
             // 
-            // textBox2
+            // txtStreet
             // 
-<<<<<<< HEAD
-            this.textBox2.Location = new System.Drawing.Point(201, 213);
-=======
-            this.textBox2.Location = new System.Drawing.Point(268, 262);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 14;
+            this.txtStreet.Location = new System.Drawing.Point(201, 213);
+            this.txtStreet.Name = "txtStreet";
+            this.txtStreet.Size = new System.Drawing.Size(100, 20);
+            this.txtStreet.TabIndex = 14;
             // 
-            // textBox3
+            // txtCity
             // 
-<<<<<<< HEAD
-            this.textBox3.Location = new System.Drawing.Point(201, 243);
-=======
-            this.textBox3.Location = new System.Drawing.Point(268, 299);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 15;
+            this.txtCity.Location = new System.Drawing.Point(201, 243);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 20);
+            this.txtCity.TabIndex = 15;
             // 
-            // textBox4
+            // txtPhone
             // 
-<<<<<<< HEAD
-            this.textBox4.Location = new System.Drawing.Point(201, 273);
-=======
-            this.textBox4.Location = new System.Drawing.Point(268, 336);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 16;
+            this.txtPhone.Location = new System.Drawing.Point(201, 273);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(100, 20);
+            this.txtPhone.TabIndex = 16;
             // 
-            // textBox6
+            // txtLengthFt
             // 
-<<<<<<< HEAD
-            this.textBox6.Location = new System.Drawing.Point(244, 308);
-=======
-            this.textBox6.Location = new System.Drawing.Point(325, 379);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(25, 20);
-            this.textBox6.TabIndex = 18;
+            this.txtLengthFt.Location = new System.Drawing.Point(244, 308);
+            this.txtLengthFt.Name = "txtLengthFt";
+            this.txtLengthFt.Size = new System.Drawing.Size(25, 20);
+            this.txtLengthFt.TabIndex = 17;
             // 
-            // textBox7
+            // txtWidthFt
             // 
-<<<<<<< HEAD
-            this.textBox7.Location = new System.Drawing.Point(244, 334);
-=======
-            this.textBox7.Location = new System.Drawing.Point(325, 411);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(25, 20);
-            this.textBox7.TabIndex = 19;
+            this.txtWidthFt.Location = new System.Drawing.Point(244, 334);
+            this.txtWidthFt.Name = "txtWidthFt";
+            this.txtWidthFt.Size = new System.Drawing.Size(25, 20);
+            this.txtWidthFt.TabIndex = 19;
             // 
-            // textBox8
+            // txtLengthIn
             // 
-<<<<<<< HEAD
-            this.textBox8.Location = new System.Drawing.Point(302, 308);
-=======
-            this.textBox8.Location = new System.Drawing.Point(403, 379);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(25, 20);
-            this.textBox8.TabIndex = 20;
+            this.txtLengthIn.Location = new System.Drawing.Point(302, 308);
+            this.txtLengthIn.Name = "txtLengthIn";
+            this.txtLengthIn.Size = new System.Drawing.Size(25, 20);
+            this.txtLengthIn.TabIndex = 18;
             // 
-            // textBox9
+            // txtWidthIn
             // 
-<<<<<<< HEAD
-            this.textBox9.Location = new System.Drawing.Point(302, 334);
-=======
-            this.textBox9.Location = new System.Drawing.Point(403, 411);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(25, 20);
-            this.textBox9.TabIndex = 21;
+            this.txtWidthIn.Location = new System.Drawing.Point(302, 334);
+            this.txtWidthIn.Name = "txtWidthIn";
+            this.txtWidthIn.Size = new System.Drawing.Size(25, 20);
+            this.txtWidthIn.TabIndex = 20;
             // 
             // cbLocation
             // 
@@ -299,15 +261,10 @@
             "Apartment",
             "House",
             "Business"});
-<<<<<<< HEAD
             this.cbLocation.Location = new System.Drawing.Point(401, 154);
-=======
-            this.cbLocation.Location = new System.Drawing.Point(535, 190);
-            this.cbLocation.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.cbLocation.Name = "cbLocation";
             this.cbLocation.Size = new System.Drawing.Size(133, 21);
-            this.cbLocation.TabIndex = 22;
+            this.cbLocation.TabIndex = 21;
             this.cbLocation.Text = "Choose Location Type";
             this.cbLocation.SelectedIndexChanged += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
             // 
@@ -322,36 +279,22 @@
             this.cbCarpeting.Items.AddRange(new object[] {
             "Berber",
             "Pattern"});
-<<<<<<< HEAD
             this.cbCarpeting.Location = new System.Drawing.Point(401, 275);
-=======
-            this.cbCarpeting.Location = new System.Drawing.Point(535, 338);
-            this.cbCarpeting.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.cbCarpeting.Name = "cbCarpeting";
             this.cbCarpeting.Size = new System.Drawing.Size(133, 21);
-            this.cbCarpeting.TabIndex = 23;
+            this.cbCarpeting.TabIndex = 22;
             this.cbCarpeting.Text = "Choose Carpeting";
-            this.cbCarpeting.SelectedIndexChanged += new System.EventHandler(this.cbCarpeting_SelectedIndexChanged);
+            this.cbCarpeting.SelectedIndexChanged += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
             // 
             // groupInstall
             // 
             this.groupInstall.Controls.Add(this.radioRegular);
             this.groupInstall.Controls.Add(this.radioSameDay);
             this.groupInstall.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.groupInstall.Location = new System.Drawing.Point(117, 521);
+            this.groupInstall.Location = new System.Drawing.Point(101, 522);
             this.groupInstall.Name = "groupInstall";
-            this.groupInstall.Size = new System.Drawing.Size(200, 100);
-            this.groupInstall.TabIndex = 26;
-=======
-            this.groupInstall.Location = new System.Drawing.Point(156, 641);
-            this.groupInstall.Margin = new System.Windows.Forms.Padding(4);
-            this.groupInstall.Name = "groupInstall";
-            this.groupInstall.Padding = new System.Windows.Forms.Padding(4);
-            this.groupInstall.Size = new System.Drawing.Size(267, 123);
+            this.groupInstall.Size = new System.Drawing.Size(270, 107);
             this.groupInstall.TabIndex = 25;
->>>>>>> refs/remotes/origin/master
             this.groupInstall.TabStop = false;
             this.groupInstall.Text = "Installation Date";
             // 
@@ -359,58 +302,36 @@
             // 
             this.radioRegular.AutoSize = true;
             this.radioRegular.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.radioRegular.Location = new System.Drawing.Point(24, 65);
             this.radioRegular.Name = "radioRegular";
-            this.radioRegular.Size = new System.Drawing.Size(74, 23);
-=======
-            this.radioRegular.Location = new System.Drawing.Point(32, 80);
-            this.radioRegular.Margin = new System.Windows.Forms.Padding(4);
-            this.radioRegular.Name = "radioRegular";
-            this.radioRegular.Size = new System.Drawing.Size(209, 27);
->>>>>>> refs/remotes/origin/master
+            this.radioRegular.Size = new System.Drawing.Size(175, 23);
             this.radioRegular.TabIndex = 1;
             this.radioRegular.TabStop = true;
-            this.radioRegular.Text = "Regular ($1.99 X SQ Ft)";
+            this.radioRegular.Text = "Regular ($1.99 x SQ Ft)";
             this.radioRegular.UseVisualStyleBackColor = true;
             // 
             // radioSameDay
             // 
             this.radioSameDay.AutoSize = true;
             this.radioSameDay.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.radioSameDay.Location = new System.Drawing.Point(24, 31);
             this.radioSameDay.Name = "radioSameDay";
-            this.radioSameDay.Size = new System.Drawing.Size(90, 23);
-=======
-            this.radioSameDay.Location = new System.Drawing.Point(32, 38);
-            this.radioSameDay.Margin = new System.Windows.Forms.Padding(4);
-            this.radioSameDay.Name = "radioSameDay";
-            this.radioSameDay.Size = new System.Drawing.Size(228, 27);
->>>>>>> refs/remotes/origin/master
+            this.radioSameDay.Size = new System.Drawing.Size(191, 23);
             this.radioSameDay.TabIndex = 0;
             this.radioSameDay.TabStop = true;
-            this.radioSameDay.Text = "Same Day ($3.95 X SQ Ft)";
+            this.radioSameDay.Text = "Same Day ($3.95 x SQ Ft)";
             this.radioSameDay.UseVisualStyleBackColor = true;
             // 
             // groupExtras
             // 
+            this.groupExtras.AutoSize = true;
             this.groupExtras.Controls.Add(this.checkStain);
             this.groupExtras.Controls.Add(this.checkAllergyCoat);
             this.groupExtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.groupExtras.Location = new System.Drawing.Point(478, 521);
+            this.groupExtras.Location = new System.Drawing.Point(433, 522);
             this.groupExtras.Name = "groupExtras";
-            this.groupExtras.Size = new System.Drawing.Size(200, 100);
-            this.groupExtras.TabIndex = 27;
-=======
-            this.groupExtras.Location = new System.Drawing.Point(637, 641);
-            this.groupExtras.Margin = new System.Windows.Forms.Padding(4);
-            this.groupExtras.Name = "groupExtras";
-            this.groupExtras.Padding = new System.Windows.Forms.Padding(4);
-            this.groupExtras.Size = new System.Drawing.Size(341, 123);
+            this.groupExtras.Size = new System.Drawing.Size(270, 107);
             this.groupExtras.TabIndex = 26;
->>>>>>> refs/remotes/origin/master
             this.groupExtras.TabStop = false;
             this.groupExtras.Text = "Extras";
             // 
@@ -418,16 +339,9 @@
             // 
             this.checkStain.AutoSize = true;
             this.checkStain.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.checkStain.Location = new System.Drawing.Point(34, 58);
             this.checkStain.Name = "checkStain";
-            this.checkStain.Size = new System.Drawing.Size(140, 23);
-=======
-            this.checkStain.Location = new System.Drawing.Point(45, 71);
-            this.checkStain.Margin = new System.Windows.Forms.Padding(4);
-            this.checkStain.Name = "checkStain";
-            this.checkStain.Size = new System.Drawing.Size(234, 27);
->>>>>>> refs/remotes/origin/master
+            this.checkStain.Size = new System.Drawing.Size(196, 23);
             this.checkStain.TabIndex = 1;
             this.checkStain.Text = "Stain Remover Kit ($59.95)";
             this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush");
@@ -437,18 +351,11 @@
             // 
             this.checkAllergyCoat.AutoSize = true;
             this.checkAllergyCoat.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.checkAllergyCoat.Location = new System.Drawing.Point(34, 28);
             this.checkAllergyCoat.Name = "checkAllergyCoat";
-            this.checkAllergyCoat.Size = new System.Drawing.Size(123, 23);
-=======
-            this.checkAllergyCoat.Location = new System.Drawing.Point(45, 34);
-            this.checkAllergyCoat.Margin = new System.Windows.Forms.Padding(4);
-            this.checkAllergyCoat.Name = "checkAllergyCoat";
-            this.checkAllergyCoat.Size = new System.Drawing.Size(276, 27);
->>>>>>> refs/remotes/origin/master
+            this.checkAllergyCoat.Size = new System.Drawing.Size(224, 23);
             this.checkAllergyCoat.TabIndex = 0;
-            this.checkAllergyCoat.Text = "Allergy Coating ($ 0.55 X SQ Ft)";
+            this.checkAllergyCoat.Text = "Allergy Coating ($0.55 x SQ Ft)";
             this.checkAllergyCoat.UseVisualStyleBackColor = true;
             // 
             // lblQoute1
@@ -476,7 +383,7 @@
             this.lblQuote2.BackColor = System.Drawing.SystemColors.Window;
             this.lblQuote2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblQuote2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuote2.Location = new System.Drawing.Point(426, 644);
+            this.lblQuote2.Location = new System.Drawing.Point(433, 650);
             this.lblQuote2.Name = "lblQuote2";
             this.lblQuote2.Size = new System.Drawing.Size(96, 31);
             this.lblQuote2.TabIndex = 30;
@@ -485,59 +392,42 @@
             // 
             this.btnOrder.AutoSize = true;
             this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnOrder.Location = new System.Drawing.Point(131, 706);
-=======
-            this.btnOrder.Location = new System.Drawing.Point(175, 869);
-            this.btnOrder.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(133, 47);
-            this.btnOrder.TabIndex = 31;
+            this.btnOrder.TabIndex = 27;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnClear
             // 
             this.btnClear.AutoSize = true;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnClear.Location = new System.Drawing.Point(321, 706);
-=======
-            this.btnClear.Location = new System.Drawing.Point(428, 869);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(135, 47);
-            this.btnClear.TabIndex = 32;
+            this.btnClear.TabIndex = 28;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnClose
             // 
             this.btnClose.AutoSize = true;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnClose.Location = new System.Drawing.Point(511, 706);
-=======
-            this.btnClose.Location = new System.Drawing.Point(681, 869);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(135, 47);
-            this.btnClose.TabIndex = 33;
+            this.btnClose.TabIndex = 29;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // picCarpet
             // 
             this.picCarpet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-<<<<<<< HEAD
             this.picCarpet.Location = new System.Drawing.Point(581, 274);
-=======
-            this.picCarpet.Location = new System.Drawing.Point(775, 337);
-            this.picCarpet.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.picCarpet.Name = "picCarpet";
             this.picCarpet.Size = new System.Drawing.Size(117, 101);
             this.picCarpet.TabIndex = 25;
@@ -546,27 +436,16 @@
             // picLocation
             // 
             this.picLocation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-<<<<<<< HEAD
             this.picLocation.Location = new System.Drawing.Point(581, 154);
-=======
-            this.picLocation.Location = new System.Drawing.Point(775, 190);
-            this.picLocation.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.picLocation.Name = "picLocation";
             this.picLocation.Size = new System.Drawing.Size(117, 101);
-            this.picLocation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLocation.TabIndex = 24;
             this.picLocation.TabStop = false;
             // 
             // picBanner
             // 
             this.picBanner.Image = global::Carpet_Mounters.Properties.Resources.carpet2;
-<<<<<<< HEAD
             this.picBanner.Location = new System.Drawing.Point(71, 12);
-=======
-            this.picBanner.Location = new System.Drawing.Point(95, 15);
-            this.picBanner.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.picBanner.Name = "picBanner";
             this.picBanner.Size = new System.Drawing.Size(627, 123);
             this.picBanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -579,19 +458,10 @@
             this.groupColorScheme.Controls.Add(this.radioIvory);
             this.groupColorScheme.Controls.Add(this.radioBurgandy);
             this.groupColorScheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-<<<<<<< HEAD
             this.groupColorScheme.Location = new System.Drawing.Point(162, 405);
             this.groupColorScheme.Name = "groupColorScheme";
             this.groupColorScheme.Size = new System.Drawing.Size(473, 90);
-            this.groupColorScheme.TabIndex = 34;
-=======
-            this.groupColorScheme.Location = new System.Drawing.Point(216, 498);
-            this.groupColorScheme.Margin = new System.Windows.Forms.Padding(4);
-            this.groupColorScheme.Name = "groupColorScheme";
-            this.groupColorScheme.Padding = new System.Windows.Forms.Padding(4);
-            this.groupColorScheme.Size = new System.Drawing.Size(631, 111);
             this.groupColorScheme.TabIndex = 23;
->>>>>>> refs/remotes/origin/master
             this.groupColorScheme.TabStop = false;
             this.groupColorScheme.Text = "Color Scheme";
             // 
@@ -600,12 +470,7 @@
             this.RadioCharcoal.AutoSize = true;
             this.RadioCharcoal.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RadioCharcoal.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-<<<<<<< HEAD
             this.RadioCharcoal.Location = new System.Drawing.Point(379, 32);
-=======
-            this.RadioCharcoal.Location = new System.Drawing.Point(505, 39);
-            this.RadioCharcoal.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.RadioCharcoal.Name = "RadioCharcoal";
             this.RadioCharcoal.Size = new System.Drawing.Size(67, 36);
             this.RadioCharcoal.TabIndex = 2;
@@ -619,12 +484,7 @@
             this.radioIvory.AutoSize = true;
             this.radioIvory.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.radioIvory.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-<<<<<<< HEAD
-            this.radioIvory.Location = new System.Drawing.Point(227, 32);
-=======
-            this.radioIvory.Location = new System.Drawing.Point(284, 39);
-            this.radioIvory.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
+            this.radioIvory.Location = new System.Drawing.Point(213, 32);
             this.radioIvory.Name = "radioIvory";
             this.radioIvory.Size = new System.Drawing.Size(44, 36);
             this.radioIvory.TabIndex = 1;
@@ -638,12 +498,7 @@
             this.radioBurgandy.AutoSize = true;
             this.radioBurgandy.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.radioBurgandy.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-<<<<<<< HEAD
             this.radioBurgandy.Location = new System.Drawing.Point(47, 32);
-=======
-            this.radioBurgandy.Location = new System.Drawing.Point(63, 39);
-            this.radioBurgandy.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.radioBurgandy.Name = "radioBurgandy";
             this.radioBurgandy.Size = new System.Drawing.Size(72, 36);
             this.radioBurgandy.TabIndex = 0;
@@ -651,6 +506,26 @@
             this.radioBurgandy.Text = "Burgandy";
             this.radioBurgandy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.radioBurgandy.UseVisualStyleBackColor = true;
+            // 
+            // lblTotalSQ
+            // 
+            this.lblTotalSQ.AutoSize = true;
+            this.lblTotalSQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSQ.Location = new System.Drawing.Point(340, 308);
+            this.lblTotalSQ.Name = "lblTotalSQ";
+            this.lblTotalSQ.Size = new System.Drawing.Size(169, 22);
+            this.lblTotalSQ.TabIndex = 35;
+            this.lblTotalSQ.Text = "Room Total SQ feet";
+            // 
+            // lblTotalSQFeet
+            // 
+            this.lblTotalSQFeet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSQFeet.Location = new System.Drawing.Point(340, 334);
+            this.lblTotalSQFeet.Name = "lblTotalSQFeet";
+            this.lblTotalSQFeet.Size = new System.Drawing.Size(153, 21);
+            this.lblTotalSQFeet.TabIndex = 36;
+            this.lblTotalSQFeet.Text = "Room Width";
+            this.lblTotalSQFeet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // imageList1
             // 
@@ -669,7 +544,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(777, 784);
+            this.ClientSize = new System.Drawing.Size(825, 817);
+            this.Controls.Add(this.lblTotalSQFeet);
+            this.Controls.Add(this.lblTotalSQ);
             this.Controls.Add(this.groupColorScheme);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnClear);
@@ -683,14 +560,14 @@
             this.Controls.Add(this.picLocation);
             this.Controls.Add(this.cbCarpeting);
             this.Controls.Add(this.cbLocation);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtWidthIn);
+            this.Controls.Add(this.txtLengthIn);
+            this.Controls.Add(this.txtWidthFt);
+            this.Controls.Add(this.txtLengthFt);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtStreet);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblIn2);
             this.Controls.Add(this.lblFt2);
             this.Controls.Add(this.lblRoomWid);
@@ -703,10 +580,6 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTicketNum);
             this.Controls.Add(this.picBanner);
-<<<<<<< HEAD
-=======
-            this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> refs/remotes/origin/master
             this.Name = "CarpetMounters";
             this.Text = "Carpet Mounters";
             this.groupInstall.ResumeLayout(false);
@@ -737,14 +610,14 @@
         private System.Windows.Forms.Label lblRoomWid;
         private System.Windows.Forms.Label lblFt2;
         private System.Windows.Forms.Label lblIn2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtStreet;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtLengthFt;
+        private System.Windows.Forms.TextBox txtWidthFt;
+        private System.Windows.Forms.TextBox txtLengthIn;
+        private System.Windows.Forms.TextBox txtWidthIn;
         private System.Windows.Forms.ComboBox cbLocation;
         private System.Windows.Forms.ComboBox cbCarpeting;
         private System.Windows.Forms.PictureBox picLocation;
@@ -766,6 +639,8 @@
         private System.Windows.Forms.RadioButton RadioCharcoal;
         private System.Windows.Forms.RadioButton radioIvory;
         private System.Windows.Forms.RadioButton radioBurgandy;
+        private System.Windows.Forms.Label lblTotalSQ;
+        private System.Windows.Forms.Label lblTotalSQFeet;
         private System.Windows.Forms.ImageList imageList1;
     }
 }
