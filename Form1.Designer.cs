@@ -84,10 +84,10 @@
             // 
             this.lblTicketNum.AutoSize = true;
             this.lblTicketNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTicketNum.Location = new System.Drawing.Point(145, 238);
+            this.lblTicketNum.Location = new System.Drawing.Point(129, 190);
             this.lblTicketNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTicketNum.Name = "lblTicketNum";
-            this.lblTicketNum.Size = new System.Drawing.Size(110, 30);
+            this.lblTicketNum.Size = new System.Drawing.Size(93, 26);
             this.lblTicketNum.TabIndex = 1;
             this.lblTicketNum.Text = "Ticket #:";
             // 
@@ -95,10 +95,10 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(145, 279);
+            this.lblName.Location = new System.Drawing.Point(129, 223);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(89, 30);
+            this.lblName.Size = new System.Drawing.Size(77, 26);
             this.lblName.TabIndex = 2;
             this.lblName.Text = "Name:";
             // 
@@ -106,10 +106,10 @@
             // 
             this.lblStreet.AutoSize = true;
             this.lblStreet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStreet.Location = new System.Drawing.Point(145, 325);
+            this.lblStreet.Location = new System.Drawing.Point(129, 260);
             this.lblStreet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStreet.Name = "lblStreet";
-            this.lblStreet.Size = new System.Drawing.Size(88, 30);
+            this.lblStreet.Size = new System.Drawing.Size(76, 26);
             this.lblStreet.TabIndex = 3;
             this.lblStreet.Text = "Street:";
             // 
@@ -117,10 +117,10 @@
             // 
             this.lblCity.AutoSize = true;
             this.lblCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCity.Location = new System.Drawing.Point(145, 371);
+            this.lblCity.Location = new System.Drawing.Point(129, 297);
             this.lblCity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCity.Name = "lblCity";
-            this.lblCity.Size = new System.Drawing.Size(65, 30);
+            this.lblCity.Size = new System.Drawing.Size(56, 26);
             this.lblCity.TabIndex = 4;
             this.lblCity.Text = "City:";
             // 
@@ -128,10 +128,10 @@
             // 
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhone.Location = new System.Drawing.Point(145, 418);
+            this.lblPhone.Location = new System.Drawing.Point(129, 334);
             this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(93, 30);
+            this.lblPhone.Size = new System.Drawing.Size(81, 26);
             this.lblPhone.TabIndex = 5;
             this.lblPhone.Text = "Phone:";
             // 
@@ -139,10 +139,10 @@
             // 
             this.lblRoomLen.AutoSize = true;
             this.lblRoomLen.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRoomLen.Location = new System.Drawing.Point(145, 471);
+            this.lblRoomLen.Location = new System.Drawing.Point(129, 377);
             this.lblRoomLen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomLen.Name = "lblRoomLen";
-            this.lblRoomLen.Size = new System.Drawing.Size(166, 30);
+            this.lblRoomLen.Size = new System.Drawing.Size(143, 26);
             this.lblRoomLen.TabIndex = 6;
             this.lblRoomLen.Text = "Room Length";
             // 
@@ -150,10 +150,10 @@
             // 
             this.lblFt1.AutoSize = true;
             this.lblFt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFt1.Location = new System.Drawing.Point(330, 471);
+            this.lblFt1.Location = new System.Drawing.Point(293, 377);
             this.lblFt1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFt1.Name = "lblFt1";
-            this.lblFt1.Size = new System.Drawing.Size(34, 30);
+            this.lblFt1.Size = new System.Drawing.Size(30, 26);
             this.lblFt1.TabIndex = 8;
             this.lblFt1.Text = "ft:";
             // 
@@ -161,10 +161,10 @@
             // 
             this.lblIn1.AutoSize = true;
             this.lblIn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIn1.Location = new System.Drawing.Point(414, 471);
+            this.lblIn1.Location = new System.Drawing.Point(368, 377);
             this.lblIn1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIn1.Name = "lblIn1";
-            this.lblIn1.Size = new System.Drawing.Size(40, 30);
+            this.lblIn1.Size = new System.Drawing.Size(35, 26);
             this.lblIn1.TabIndex = 9;
             this.lblIn1.Text = "in:";
             // 
@@ -172,10 +172,10 @@
             // 
             this.lblRoomWid.AutoSize = true;
             this.lblRoomWid.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRoomWid.Location = new System.Drawing.Point(145, 511);
+            this.lblRoomWid.Location = new System.Drawing.Point(129, 409);
             this.lblRoomWid.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomWid.Name = "lblRoomWid";
-            this.lblRoomWid.Size = new System.Drawing.Size(155, 30);
+            this.lblRoomWid.Size = new System.Drawing.Size(133, 26);
             this.lblRoomWid.TabIndex = 10;
             this.lblRoomWid.Text = "Room Width";
             // 
@@ -183,10 +183,10 @@
             // 
             this.lblFt2.AutoSize = true;
             this.lblFt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFt2.Location = new System.Drawing.Point(330, 511);
+            this.lblFt2.Location = new System.Drawing.Point(293, 409);
             this.lblFt2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFt2.Name = "lblFt2";
-            this.lblFt2.Size = new System.Drawing.Size(34, 30);
+            this.lblFt2.Size = new System.Drawing.Size(30, 26);
             this.lblFt2.TabIndex = 11;
             this.lblFt2.Text = "ft:";
             // 
@@ -194,75 +194,75 @@
             // 
             this.lblIn2.AutoSize = true;
             this.lblIn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIn2.Location = new System.Drawing.Point(414, 511);
+            this.lblIn2.Location = new System.Drawing.Point(368, 409);
             this.lblIn2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIn2.Name = "lblIn2";
-            this.lblIn2.Size = new System.Drawing.Size(40, 30);
+            this.lblIn2.Size = new System.Drawing.Size(35, 26);
             this.lblIn2.TabIndex = 12;
             this.lblIn2.Text = "in:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(302, 281);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(268, 225);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 26);
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 13;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(302, 328);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox2.Location = new System.Drawing.Point(268, 262);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 26);
+            this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 14;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(302, 374);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(268, 299);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 26);
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 15;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(302, 420);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox4.Location = new System.Drawing.Point(268, 336);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 26);
+            this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 16;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(366, 474);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox6.Location = new System.Drawing.Point(325, 379);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(36, 26);
+            this.textBox6.Size = new System.Drawing.Size(32, 22);
             this.textBox6.TabIndex = 17;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(366, 514);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox7.Location = new System.Drawing.Point(325, 411);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(36, 26);
+            this.textBox7.Size = new System.Drawing.Size(32, 22);
             this.textBox7.TabIndex = 19;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(453, 474);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox8.Location = new System.Drawing.Point(403, 379);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(36, 26);
+            this.textBox8.Size = new System.Drawing.Size(32, 22);
             this.textBox8.TabIndex = 18;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(453, 514);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox9.Location = new System.Drawing.Point(403, 411);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(36, 26);
+            this.textBox9.Size = new System.Drawing.Size(32, 22);
             this.textBox9.TabIndex = 20;
             // 
             // cbLocation
@@ -278,10 +278,10 @@
             "Apartment",
             "House",
             "Business"});
-            this.cbLocation.Location = new System.Drawing.Point(602, 238);
-            this.cbLocation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbLocation.Location = new System.Drawing.Point(535, 190);
+            this.cbLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbLocation.Name = "cbLocation";
-            this.cbLocation.Size = new System.Drawing.Size(198, 28);
+            this.cbLocation.Size = new System.Drawing.Size(176, 24);
             this.cbLocation.TabIndex = 21;
             this.cbLocation.Text = "Choose Location Type";
             // 
@@ -296,10 +296,10 @@
             this.cbCarpeting.Items.AddRange(new object[] {
             "Berber",
             "Pattern"});
-            this.cbCarpeting.Location = new System.Drawing.Point(602, 422);
-            this.cbCarpeting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbCarpeting.Location = new System.Drawing.Point(535, 338);
+            this.cbCarpeting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbCarpeting.Name = "cbCarpeting";
-            this.cbCarpeting.Size = new System.Drawing.Size(198, 28);
+            this.cbCarpeting.Size = new System.Drawing.Size(176, 24);
             this.cbCarpeting.TabIndex = 22;
             this.cbCarpeting.Text = "Choose Carpeting";
             // 
@@ -308,11 +308,11 @@
             this.groupInstall.Controls.Add(this.radioRegular);
             this.groupInstall.Controls.Add(this.radioSameDay);
             this.groupInstall.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupInstall.Location = new System.Drawing.Point(176, 801);
-            this.groupInstall.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupInstall.Location = new System.Drawing.Point(156, 641);
+            this.groupInstall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupInstall.Name = "groupInstall";
-            this.groupInstall.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupInstall.Size = new System.Drawing.Size(300, 154);
+            this.groupInstall.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupInstall.Size = new System.Drawing.Size(267, 123);
             this.groupInstall.TabIndex = 25;
             this.groupInstall.TabStop = false;
             this.groupInstall.Text = "Installation Date";
@@ -321,10 +321,10 @@
             // 
             this.radioRegular.AutoSize = true;
             this.radioRegular.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioRegular.Location = new System.Drawing.Point(36, 100);
-            this.radioRegular.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioRegular.Location = new System.Drawing.Point(32, 80);
+            this.radioRegular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioRegular.Name = "radioRegular";
-            this.radioRegular.Size = new System.Drawing.Size(106, 32);
+            this.radioRegular.Size = new System.Drawing.Size(89, 27);
             this.radioRegular.TabIndex = 1;
             this.radioRegular.TabStop = true;
             this.radioRegular.Text = "Regular";
@@ -334,10 +334,10 @@
             // 
             this.radioSameDay.AutoSize = true;
             this.radioSameDay.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioSameDay.Location = new System.Drawing.Point(36, 48);
-            this.radioSameDay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioSameDay.Location = new System.Drawing.Point(32, 38);
+            this.radioSameDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioSameDay.Name = "radioSameDay";
-            this.radioSameDay.Size = new System.Drawing.Size(128, 32);
+            this.radioSameDay.Size = new System.Drawing.Size(108, 27);
             this.radioSameDay.TabIndex = 0;
             this.radioSameDay.TabStop = true;
             this.radioSameDay.Text = "Same Day";
@@ -348,11 +348,11 @@
             this.groupExtras.Controls.Add(this.checkStain);
             this.groupExtras.Controls.Add(this.checkAllergyCoat);
             this.groupExtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupExtras.Location = new System.Drawing.Point(717, 801);
-            this.groupExtras.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupExtras.Location = new System.Drawing.Point(637, 641);
+            this.groupExtras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupExtras.Name = "groupExtras";
-            this.groupExtras.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupExtras.Size = new System.Drawing.Size(300, 154);
+            this.groupExtras.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupExtras.Size = new System.Drawing.Size(267, 123);
             this.groupExtras.TabIndex = 26;
             this.groupExtras.TabStop = false;
             this.groupExtras.Text = "Extras";
@@ -361,10 +361,10 @@
             // 
             this.checkStain.AutoSize = true;
             this.checkStain.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkStain.Location = new System.Drawing.Point(51, 89);
-            this.checkStain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkStain.Location = new System.Drawing.Point(45, 71);
+            this.checkStain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkStain.Name = "checkStain";
-            this.checkStain.Size = new System.Drawing.Size(202, 32);
+            this.checkStain.Size = new System.Drawing.Size(169, 27);
             this.checkStain.TabIndex = 1;
             this.checkStain.Text = "Stain Remover Kit";
             this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush");
@@ -374,10 +374,10 @@
             // 
             this.checkAllergyCoat.AutoSize = true;
             this.checkAllergyCoat.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkAllergyCoat.Location = new System.Drawing.Point(51, 42);
-            this.checkAllergyCoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkAllergyCoat.Location = new System.Drawing.Point(45, 34);
+            this.checkAllergyCoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkAllergyCoat.Name = "checkAllergyCoat";
-            this.checkAllergyCoat.Size = new System.Drawing.Size(179, 32);
+            this.checkAllergyCoat.Size = new System.Drawing.Size(150, 27);
             this.checkAllergyCoat.TabIndex = 0;
             this.checkAllergyCoat.Text = "Allergy Coating";
             this.checkAllergyCoat.UseVisualStyleBackColor = true;
@@ -386,10 +386,10 @@
             // 
             this.lblQoute1.AutoSize = true;
             this.lblQoute1.Font = new System.Drawing.Font("Malgun Gothic Semilight", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQoute1.Location = new System.Drawing.Point(408, 991);
+            this.lblQoute1.Location = new System.Drawing.Point(363, 793);
             this.lblQoute1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQoute1.Name = "lblQoute1";
-            this.lblQoute1.Size = new System.Drawing.Size(148, 54);
+            this.lblQoute1.Size = new System.Drawing.Size(128, 46);
             this.lblQoute1.TabIndex = 28;
             this.lblQoute1.Text = "Quote:";
             // 
@@ -397,10 +397,10 @@
             // 
             this.lblTicketNum2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.lblTicketNum2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblTicketNum2.Location = new System.Drawing.Point(302, 234);
+            this.lblTicketNum2.Location = new System.Drawing.Point(268, 187);
             this.lblTicketNum2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTicketNum2.Name = "lblTicketNum2";
-            this.lblTicketNum2.Size = new System.Drawing.Size(149, 30);
+            this.lblTicketNum2.Size = new System.Drawing.Size(133, 24);
             this.lblTicketNum2.TabIndex = 29;
             this.lblTicketNum2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -409,20 +409,20 @@
             this.lblQuote2.BackColor = System.Drawing.SystemColors.Window;
             this.lblQuote2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblQuote2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuote2.Location = new System.Drawing.Point(639, 991);
+            this.lblQuote2.Location = new System.Drawing.Point(568, 793);
             this.lblQuote2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuote2.Name = "lblQuote2";
-            this.lblQuote2.Size = new System.Drawing.Size(143, 47);
+            this.lblQuote2.Size = new System.Drawing.Size(127, 38);
             this.lblQuote2.TabIndex = 30;
             // 
             // btnOrder
             // 
             this.btnOrder.AutoSize = true;
             this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.Location = new System.Drawing.Point(197, 1086);
-            this.btnOrder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnOrder.Location = new System.Drawing.Point(175, 869);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(199, 72);
+            this.btnOrder.Size = new System.Drawing.Size(177, 58);
             this.btnOrder.TabIndex = 27;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = true;
@@ -432,10 +432,10 @@
             // 
             this.btnClear.AutoSize = true;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(482, 1086);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClear.Location = new System.Drawing.Point(428, 869);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(202, 72);
+            this.btnClear.Size = new System.Drawing.Size(180, 58);
             this.btnClear.TabIndex = 28;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -445,10 +445,10 @@
             // 
             this.btnClose.AutoSize = true;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(766, 1086);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClose.Location = new System.Drawing.Point(681, 869);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(202, 72);
+            this.btnClose.Size = new System.Drawing.Size(180, 58);
             this.btnClose.TabIndex = 29;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -457,30 +457,30 @@
             // picCarpet
             // 
             this.picCarpet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picCarpet.Location = new System.Drawing.Point(872, 421);
-            this.picCarpet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picCarpet.Location = new System.Drawing.Point(775, 337);
+            this.picCarpet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picCarpet.Name = "picCarpet";
-            this.picCarpet.Size = new System.Drawing.Size(174, 154);
+            this.picCarpet.Size = new System.Drawing.Size(155, 124);
             this.picCarpet.TabIndex = 25;
             this.picCarpet.TabStop = false;
             // 
             // picLocation
             // 
             this.picLocation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picLocation.Location = new System.Drawing.Point(872, 238);
-            this.picLocation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picLocation.Location = new System.Drawing.Point(775, 190);
+            this.picLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picLocation.Name = "picLocation";
-            this.picLocation.Size = new System.Drawing.Size(174, 154);
+            this.picLocation.Size = new System.Drawing.Size(155, 124);
             this.picLocation.TabIndex = 24;
             this.picLocation.TabStop = false;
             // 
             // picBanner
             // 
             this.picBanner.Image = global::Carpet_Mounters.Properties.Resources.carpet2;
-            this.picBanner.Location = new System.Drawing.Point(107, 19);
-            this.picBanner.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picBanner.Location = new System.Drawing.Point(95, 15);
+            this.picBanner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picBanner.Name = "picBanner";
-            this.picBanner.Size = new System.Drawing.Size(940, 189);
+            this.picBanner.Size = new System.Drawing.Size(836, 151);
             this.picBanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBanner.TabIndex = 0;
             this.picBanner.TabStop = false;
@@ -491,11 +491,11 @@
             this.groupColorScheme.Controls.Add(this.radioIvory);
             this.groupColorScheme.Controls.Add(this.radioBurgandy);
             this.groupColorScheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.groupColorScheme.Location = new System.Drawing.Point(243, 622);
-            this.groupColorScheme.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupColorScheme.Location = new System.Drawing.Point(216, 498);
+            this.groupColorScheme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupColorScheme.Name = "groupColorScheme";
-            this.groupColorScheme.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupColorScheme.Size = new System.Drawing.Size(710, 139);
+            this.groupColorScheme.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupColorScheme.Size = new System.Drawing.Size(631, 111);
             this.groupColorScheme.TabIndex = 23;
             this.groupColorScheme.TabStop = false;
             this.groupColorScheme.Text = "Color Scheme";
@@ -505,10 +505,10 @@
             this.RadioCharcoal.AutoSize = true;
             this.RadioCharcoal.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.RadioCharcoal.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-            this.RadioCharcoal.Location = new System.Drawing.Point(568, 49);
-            this.RadioCharcoal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.RadioCharcoal.Location = new System.Drawing.Point(505, 39);
+            this.RadioCharcoal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RadioCharcoal.Name = "RadioCharcoal";
-            this.RadioCharcoal.Size = new System.Drawing.Size(94, 52);
+            this.RadioCharcoal.Size = new System.Drawing.Size(81, 43);
             this.RadioCharcoal.TabIndex = 2;
             this.RadioCharcoal.TabStop = true;
             this.RadioCharcoal.Text = "Charcoal";
@@ -520,10 +520,10 @@
             this.radioIvory.AutoSize = true;
             this.radioIvory.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.radioIvory.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-            this.radioIvory.Location = new System.Drawing.Point(320, 49);
-            this.radioIvory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioIvory.Location = new System.Drawing.Point(284, 39);
+            this.radioIvory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioIvory.Name = "radioIvory";
-            this.radioIvory.Size = new System.Drawing.Size(60, 52);
+            this.radioIvory.Size = new System.Drawing.Size(51, 43);
             this.radioIvory.TabIndex = 1;
             this.radioIvory.TabStop = true;
             this.radioIvory.Text = "Ivory";
@@ -535,10 +535,10 @@
             this.radioBurgandy.AutoSize = true;
             this.radioBurgandy.CheckAlign = System.Drawing.ContentAlignment.TopCenter;
             this.radioBurgandy.Font = new System.Drawing.Font("Malgun Gothic", 10F);
-            this.radioBurgandy.Location = new System.Drawing.Point(71, 49);
-            this.radioBurgandy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioBurgandy.Location = new System.Drawing.Point(63, 39);
+            this.radioBurgandy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioBurgandy.Name = "radioBurgandy";
-            this.radioBurgandy.Size = new System.Drawing.Size(103, 52);
+            this.radioBurgandy.Size = new System.Drawing.Size(87, 43);
             this.radioBurgandy.TabIndex = 0;
             this.radioBurgandy.TabStop = true;
             this.radioBurgandy.Text = "Burgandy";
@@ -549,31 +549,31 @@
             // 
             this.lblTotalSQ.AutoSize = true;
             this.lblTotalSQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSQ.Location = new System.Drawing.Point(510, 474);
+            this.lblTotalSQ.Location = new System.Drawing.Point(453, 379);
             this.lblTotalSQ.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalSQ.Name = "lblTotalSQ";
-            this.lblTotalSQ.Size = new System.Drawing.Size(239, 30);
+            this.lblTotalSQ.Size = new System.Drawing.Size(204, 26);
             this.lblTotalSQ.TabIndex = 35;
             this.lblTotalSQ.Text = "Room Total SQ feet";
             // 
             // lblTotalSQFeet
             // 
             this.lblTotalSQFeet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSQFeet.Location = new System.Drawing.Point(510, 514);
+            this.lblTotalSQFeet.Location = new System.Drawing.Point(453, 411);
             this.lblTotalSQFeet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalSQFeet.Name = "lblTotalSQFeet";
-            this.lblTotalSQFeet.Size = new System.Drawing.Size(230, 32);
+            this.lblTotalSQFeet.Size = new System.Drawing.Size(204, 26);
             this.lblTotalSQFeet.TabIndex = 36;
             this.lblTotalSQFeet.Text = "Room Width";
             this.lblTotalSQFeet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // CarpetMounters
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(1166, 1038);
+            this.ClientSize = new System.Drawing.Size(1100, 1006);
             this.Controls.Add(this.lblTotalSQFeet);
             this.Controls.Add(this.lblTotalSQ);
             this.Controls.Add(this.groupColorScheme);
@@ -609,7 +609,7 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTicketNum);
             this.Controls.Add(this.picBanner);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "CarpetMounters";
             this.Text = "Carpet Mounters";
             this.groupInstall.ResumeLayout(false);
