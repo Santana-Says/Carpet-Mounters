@@ -12,11 +12,53 @@ namespace Carpet_Mounters
 {
     public partial class CarpetMounters : Form
     {
+<<<<<<< HEAD
+=======
+        //module level variables
+        int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
+        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
+
+>>>>>>> refs/remotes/origin/master
         public CarpetMounters()
         {
             InitializeComponent();
             GenerateRandom();
         }
+<<<<<<< HEAD
+=======
+
+
+        //function to validate integers for feet inch, if invalid display error message
+        private void ValidateInt(string label1, string label2, string boxtext, ref int result)
+        {
+            string message = "";
+            string Str = boxtext.Trim();
+
+            int Num;
+
+            bool isNum = int.TryParse(Str, out Num);
+
+            if (isNum)
+            {
+                result = Num;
+            }
+            //display error if not an interger number
+            else
+            {
+                message = string.Format("{0} {1} Value is incorrect, please enter a correct number", label1, label2);
+
+                MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            //validate positive number or 0 value and error message if invalid
+            if (Num < 0)
+            {
+                message = string.Format("{0} {1} Value is incorrect, please enter a positive number number", label1, label2);
+
+                MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
+>>>>>>> refs/remotes/origin/master
 
         private void GenerateRandom()
         {
@@ -45,6 +87,32 @@ namespace Carpet_Mounters
                     break;
             }
         }
+<<<<<<< HEAD
+=======
+        //clear button
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
+            roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
+            textBox8.Text = "";
+            textBox9.Text = "";
+
+            lblQuote2.Text = "";
+            radioBurgandy.Checked = false;
+            RadioCharcoal.Checked = false;
+            radioIvory.Checked = false;
+            radioRegular.Checked = false;
+            radioSameDay.Checked = false;
+            checkAllergyCoat.Checked = false;
+            checkStain.Checked = false;
+
+>>>>>>> refs/remotes/origin/master
 
         private void cbCarpeting_SelectedIndexChanged(object sender, EventArgs e)
         {
