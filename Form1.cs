@@ -12,20 +12,15 @@ namespace Carpet_Mounters
 {
     public partial class CarpetMounters : Form
     {
-<<<<<<< HEAD
-=======
         //module level variables
         int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
         double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
-
->>>>>>> refs/remotes/origin/master
+        
         public CarpetMounters()
         {
             InitializeComponent();
             GenerateRandom();
         }
-<<<<<<< HEAD
-=======
 
 
         //function to validate integers for feet inch, if invalid display error message
@@ -58,7 +53,6 @@ namespace Carpet_Mounters
             }
             
         }
->>>>>>> refs/remotes/origin/master
 
 
         // function to calculate the total square foot for the room
@@ -98,24 +92,6 @@ namespace Carpet_Mounters
             lblTicketNum2.Text = x.ToString();
         }
 
-        private void cbLocation_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            switch (cbLocation.SelectedIndex)
-            {
-                case 0:
-                    picLocation.Image = imageList1.Images["apartment.jpg"];
-                    break;
-                case 1:
-                    picLocation.Image = imageList1.Images["house.jpg"];
-                    break;
-                case 2:
-                    picLocation.Image = imageList1.Images["biz.jpg"];
-                    break;
-            }
-        }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         //clear button
         private void btnClear_Click(object sender, EventArgs e)
         {
@@ -146,6 +122,11 @@ namespace Carpet_Mounters
             //string summaryMessage = "Location Type"
             CalculateRoom();
             //MessageBox.Show("Location Type:", "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
         //link pic boxes to combo boxes
