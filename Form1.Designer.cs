@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarpetMounters));
             this.lblTicketNum = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblStreet = new System.Windows.Forms.Label();
@@ -70,6 +71,7 @@
             this.RadioCharcoal = new System.Windows.Forms.RadioButton();
             this.radioIvory = new System.Windows.Forms.RadioButton();
             this.radioBurgandy = new System.Windows.Forms.RadioButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupInstall.SuspendLayout();
             this.groupExtras.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCarpet)).BeginInit();
@@ -262,6 +264,7 @@
             this.cbLocation.Size = new System.Drawing.Size(133, 21);
             this.cbLocation.TabIndex = 22;
             this.cbLocation.Text = "Choose Location Type";
+            this.cbLocation.SelectedIndexChanged += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
             // 
             // cbCarpeting
             // 
@@ -279,6 +282,7 @@
             this.cbCarpeting.Size = new System.Drawing.Size(133, 21);
             this.cbCarpeting.TabIndex = 23;
             this.cbCarpeting.Text = "Choose Carpeting";
+            this.cbCarpeting.SelectedIndexChanged += new System.EventHandler(this.cbCarpeting_SelectedIndexChanged);
             // 
             // groupInstall
             // 
@@ -497,6 +501,17 @@
             this.radioBurgandy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.radioBurgandy.UseVisualStyleBackColor = true;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "apartment.jpg");
+            this.imageList1.Images.SetKeyName(1, "Berber.jpg");
+            this.imageList1.Images.SetKeyName(2, "biz.jpg");
+            this.imageList1.Images.SetKeyName(3, "carpet2.jpg");
+            this.imageList1.Images.SetKeyName(4, "house.jpg");
+            this.imageList1.Images.SetKeyName(5, "Pattern.jpg");
+            // 
             // CarpetMounters
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -596,6 +611,7 @@
         private System.Windows.Forms.RadioButton RadioCharcoal;
         private System.Windows.Forms.RadioButton radioIvory;
         private System.Windows.Forms.RadioButton radioBurgandy;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
