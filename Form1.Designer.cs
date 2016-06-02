@@ -267,6 +267,7 @@
             this.cbLocation.TabIndex = 21;
             this.cbLocation.Text = "Choose Location Type";
             this.cbLocation.SelectedIndexChanged += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
+            this.cbLocation.Click += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
             // 
             // cbCarpeting
             // 
@@ -284,7 +285,8 @@
             this.cbCarpeting.Size = new System.Drawing.Size(133, 21);
             this.cbCarpeting.TabIndex = 22;
             this.cbCarpeting.Text = "Choose Carpeting";
-            this.cbCarpeting.SelectedIndexChanged += new System.EventHandler(this.cbLocation_SelectedIndexChanged);
+            this.cbCarpeting.SelectedIndexChanged += new System.EventHandler(this.cbCarpeting_SelectedIndexChanged);
+            this.cbCarpeting.Click += new System.EventHandler(this.cbCarpeting_SelectedIndexChanged);
             // 
             // groupInstall
             // 
@@ -532,11 +534,11 @@
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "apartment.jpg");
-            this.imageList1.Images.SetKeyName(1, "Berber.jpg");
+            this.imageList1.Images.SetKeyName(1, "berber.jpg");
             this.imageList1.Images.SetKeyName(2, "biz.jpg");
             this.imageList1.Images.SetKeyName(3, "carpet2.jpg");
             this.imageList1.Images.SetKeyName(4, "house.jpg");
-            this.imageList1.Images.SetKeyName(5, "Pattern.jpg");
+            this.imageList1.Images.SetKeyName(5, "pattern.jpg");
             // 
             // CarpetMounters
             // 
