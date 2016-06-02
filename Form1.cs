@@ -14,13 +14,15 @@ namespace Carpet_Mounters
     {
         //module level variables
         int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
-        double roomTotalFoot = 0, roomTotalInch = 0;
+        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
 
         public CarpetMounters()
         {
             InitializeComponent();
             GenerateRandom();
         }
+
+
         //function to validate integers for feet inch, if invalid display error message
         private void ValidateInt(string label1, string label2, string boxtext, ref int result)
         {
@@ -107,6 +109,26 @@ namespace Carpet_Mounters
         //clear button
         private void btnClear_Click(object sender, EventArgs e)
         {
+            roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
+            roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
+            textBox8.Text = "";
+            textBox9.Text = "";
+
+            lblQuote2.Text = "";
+            radioBurgandy.Checked = false;
+            RadioCharcoal.Checked = false;
+            radioIvory.Checked = false;
+            radioRegular.Checked = false;
+            radioSameDay.Checked = false;
+            checkAllergyCoat.Checked = false;
+            checkStain.Checked = false;
+
 
         }
         //order calculation
