@@ -88,6 +88,7 @@ namespace Carpet_Mounters
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         //clear button
         private void btnClear_Click(object sender, EventArgs e)
@@ -113,6 +114,8 @@ namespace Carpet_Mounters
             checkStain.Checked = false;
 
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> origin/Jeff
 
         private void cbCarpeting_SelectedIndexChanged(object sender, EventArgs e)
         {
