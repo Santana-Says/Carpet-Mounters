@@ -324,10 +324,10 @@
             this.radioRegular.Location = new System.Drawing.Point(32, 80);
             this.radioRegular.Margin = new System.Windows.Forms.Padding(4);
             this.radioRegular.Name = "radioRegular";
-            this.radioRegular.Size = new System.Drawing.Size(89, 27);
+            this.radioRegular.Size = new System.Drawing.Size(209, 27);
             this.radioRegular.TabIndex = 1;
             this.radioRegular.TabStop = true;
-            this.radioRegular.Text = "Regular";
+            this.radioRegular.Text = "Regular ($1.99 X SQ Ft)";
             this.radioRegular.UseVisualStyleBackColor = true;
             // 
             // radioSameDay
@@ -337,10 +337,10 @@
             this.radioSameDay.Location = new System.Drawing.Point(32, 38);
             this.radioSameDay.Margin = new System.Windows.Forms.Padding(4);
             this.radioSameDay.Name = "radioSameDay";
-            this.radioSameDay.Size = new System.Drawing.Size(108, 27);
+            this.radioSameDay.Size = new System.Drawing.Size(228, 27);
             this.radioSameDay.TabIndex = 0;
             this.radioSameDay.TabStop = true;
-            this.radioSameDay.Text = "Same Day";
+            this.radioSameDay.Text = "Same Day ($3.95 X SQ Ft)";
             this.radioSameDay.UseVisualStyleBackColor = true;
             // 
             // groupExtras
@@ -352,7 +352,7 @@
             this.groupExtras.Margin = new System.Windows.Forms.Padding(4);
             this.groupExtras.Name = "groupExtras";
             this.groupExtras.Padding = new System.Windows.Forms.Padding(4);
-            this.groupExtras.Size = new System.Drawing.Size(267, 123);
+            this.groupExtras.Size = new System.Drawing.Size(341, 123);
             this.groupExtras.TabIndex = 26;
             this.groupExtras.TabStop = false;
             this.groupExtras.Text = "Extras";
@@ -364,9 +364,9 @@
             this.checkStain.Location = new System.Drawing.Point(45, 71);
             this.checkStain.Margin = new System.Windows.Forms.Padding(4);
             this.checkStain.Name = "checkStain";
-            this.checkStain.Size = new System.Drawing.Size(169, 27);
+            this.checkStain.Size = new System.Drawing.Size(234, 27);
             this.checkStain.TabIndex = 1;
-            this.checkStain.Text = "Stain Remover Kit";
+            this.checkStain.Text = "Stain Remover Kit ($59.95)";
             this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush");
             this.checkStain.UseVisualStyleBackColor = true;
             // 
@@ -377,9 +377,9 @@
             this.checkAllergyCoat.Location = new System.Drawing.Point(45, 34);
             this.checkAllergyCoat.Margin = new System.Windows.Forms.Padding(4);
             this.checkAllergyCoat.Name = "checkAllergyCoat";
-            this.checkAllergyCoat.Size = new System.Drawing.Size(150, 27);
+            this.checkAllergyCoat.Size = new System.Drawing.Size(276, 27);
             this.checkAllergyCoat.TabIndex = 0;
-            this.checkAllergyCoat.Text = "Allergy Coating";
+            this.checkAllergyCoat.Text = "Allergy Coating ($ 0.55 X SQ Ft)";
             this.checkAllergyCoat.UseVisualStyleBackColor = true;
             // 
             // lblQoute1
