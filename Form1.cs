@@ -121,9 +121,10 @@ namespace Carpet_Mounters
         //order calculation
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            //text for message box
-            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nColor Choice: ?", cbLocation.Text, cbCarpeting.Text);
             CalculateRoom();
+
+            //text for message box
+            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text);
             MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 

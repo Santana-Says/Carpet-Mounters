@@ -447,7 +447,7 @@
             // picBanner
             // 
             this.picBanner.Image = global::Carpet_Mounters.Properties.Resources.carpet2;
-            this.picBanner.Location = new System.Drawing.Point(71, 12);
+            this.picBanner.Location = new System.Drawing.Point(85, 12);
             this.picBanner.Name = "picBanner";
             this.picBanner.Size = new System.Drawing.Size(627, 123);
             this.picBanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -545,8 +545,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(825, 817);
+            this.CancelButton = this.btnClose;
+            this.ClientSize = new System.Drawing.Size(786, 817);
             this.Controls.Add(this.lblTotalSQFeet);
             this.Controls.Add(this.lblTotalSQ);
             this.Controls.Add(this.groupColorScheme);
@@ -583,6 +585,7 @@
             this.Controls.Add(this.lblTicketNum);
             this.Controls.Add(this.picBanner);
             this.Name = "CarpetMounters";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Carpet Mounters";
             this.groupInstall.ResumeLayout(false);
             this.groupInstall.PerformLayout();
