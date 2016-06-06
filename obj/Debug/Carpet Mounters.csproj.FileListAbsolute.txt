@@ -46,3 +46,15 @@ C:\Users\Erika\OneDrive\Documents\C#\Project1-CarpetSales\Carpet-Mounters\obj\De
 C:\Users\Erika\OneDrive\Documents\C#\Project1-CarpetSales\Carpet-Mounters\obj\Debug\Carpet_Mounters.CarpetMounters.resources
 C:\Users\Erika\OneDrive\Documents\C#\Project1-CarpetSales\Carpet-Mounters\obj\Debug\Carpet_Mounters.Properties.Resources.resources
 C:\Users\Erika\OneDrive\Documents\C#\Project1-CarpetSales\Carpet-Mounters\obj\Debug\Carpet Mounters.csproj.GenerateResource.Cache
+C:\Users\jmlop\Documents\GitHubVisualStudio\Carpet-Mounters\bin\Debug\Carpet Mounters.exe.config
+C:\Users\jmlop\Documents\GitHubVisualStudio\Carpet-Mounters\obj\Debug\Carpet Mounters.exe
+C:\Users\jmlop\Documents\GitHubVisualStudio\Carpet-Mounters\obj\Debug\Carpet Mounters.pdb
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\bin\Debug\Carpet Mounters.exe.config
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet Mounters.exe
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet Mounters.pdb
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet Mounters.csprojResolveAssemblyReference.cache
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet_Mounters.CarpetMounters.resources
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet_Mounters.Properties.Resources.resources
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet Mounters.csproj.GenerateResource.Cache
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\bin\Debug\Carpet Mounters.exe
+C:\Users\Santana\Source\Repos\Carpet-Mounters2\bin\Debug\Carpet Mounters.pdb
