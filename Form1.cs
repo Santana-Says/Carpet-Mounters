@@ -124,7 +124,7 @@ namespace Carpet_Mounters
             CalculateRoom();
 
             //text for message box
-            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text);
+            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?\n", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text );
             MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
