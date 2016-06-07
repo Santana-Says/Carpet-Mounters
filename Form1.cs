@@ -14,7 +14,7 @@ namespace Carpet_Mounters
     {
         //module level variables
         int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
-        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0, locationPrice = 0.0;
+        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
         
         public CarpetMounters()
         {
@@ -123,10 +123,6 @@ namespace Carpet_Mounters
         {
             CalculateRoom();
 
-            quoteTotal = locationPrice + (carpetPrice * roomTotalFoot);
-
-            lblQuote2.Text = quoteTotal.ToString();
-
             //text for message box
             string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?\n", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text );
             MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -144,15 +140,12 @@ namespace Carpet_Mounters
             {
                 case 0:
                     picLocation.Image = imageList1.Images["apartment.jpg"];
-                    locationPrice = 250;
                     break;
                 case 1:
                     picLocation.Image = imageList1.Images["house.jpg"];
-                    locationPrice = 350;
                     break;
                 case 2:
                     picLocation.Image = imageList1.Images["biz.jpg"];
-                    locationPrice = 300;
                     break;
             }
         }
@@ -163,11 +156,9 @@ namespace Carpet_Mounters
             {
                 case 0:
                     picCarpet.Image = imageList1.Images["berber.jpg"];
-                    carpetPrice = .75;
                     break;
                 case 1:
                     picCarpet.Image = imageList1.Images["pattern.jpg"];
-                    carpetPrice = 1.28;
                     break;
             }
         }
