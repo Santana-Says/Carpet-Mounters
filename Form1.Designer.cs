@@ -210,6 +210,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(148, 26);
             this.txtName.TabIndex = 13;
+            this.txtName.Validating += new System.ComponentModel.CancelEventHandler(this.txtName_Validating);
             // 
             // txtStreet
             // 
