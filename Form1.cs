@@ -99,6 +99,24 @@ namespace Carpet_Mounters
             }
         }
 
+        //name validation
+        public bool isValidName(string name)
+        {
+            string tempName;
+            tempName = @"^[A-Z]{1,30}$";
+            Regex myregn = new Regex(tempName, RegexOptions.IgnoreCase);
+            return myregn.IsMatch(name);
+        }
+
+        private void txtName_Validating(object sender, CancelEventArgs e)
+        {
+            if(!isValidName(txtName.Text))
+            {
+                MessageBox.Show("Invalid name. Must be a name 1-30 characters in length(a-z only).");
+                txtName.Focus();
+                txtName.SelectAll();
+            }
+        }
 
         //random number generator function 
         private void GenerateRandom()
