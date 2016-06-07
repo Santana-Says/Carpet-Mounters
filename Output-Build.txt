@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: Carpet Mounters, Configuration: Debug Any CPU ------
-1>  Carpet Mounters -> C:\Users\Erika\OneDrive\Documents\C#\CarpetMounters\bin\Debug\Carpet Mounters.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
