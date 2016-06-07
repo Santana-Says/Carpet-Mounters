@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Carpet_Mounters
 {
@@ -21,7 +22,6 @@ namespace Carpet_Mounters
             InitializeComponent();
             GenerateRandom();
         }
-
 
         //function to validate integers for feet inch, if invalid display error message
         private void ValidateInt(string label1, string label2, string boxtext, ref int result)
@@ -76,6 +76,27 @@ namespace Carpet_Mounters
             //assing the result to the totalsq feet variable
             roomTotalFoot = Math.Round(roomTotalFoot, 2);
             lblTotalSQFeet.Text = roomTotalFoot.ToString();
+        }
+
+        //phone number validation
+        public bool isValidPhone(string phone)
+        {
+            string tempPhone;
+            tempPhone = @"^\(\d{3}\)\s\-\d{3}\-\d{4}$";
+
+            Regex myreg = new Regex(tempPhone);
+
+            return myreg.IsMatch(phone);
+        }
+
+        private void txtPhone_Validating(object sender, CancelEventArgs e)
+        {
+            if (!isValidPhone(txtPhone.Text))
+            {
+                MessageBox.Show("Invalid Phone Number. Must be (XXX) -XXX-XXXX");
+                txtPhone.Focus();
+                txtPhone.SelectAll();
+            }
         }
 
 
