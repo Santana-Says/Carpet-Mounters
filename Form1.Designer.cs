@@ -166,7 +166,7 @@
             // 
             this.lblRoomWid.AutoSize = true;
             this.lblRoomWid.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRoomWid.Location = new System.Drawing.Point(97, 332);
+            this.lblRoomWid.Location = new System.Drawing.Point(97, 335);
             this.lblRoomWid.Name = "lblRoomWid";
             this.lblRoomWid.Size = new System.Drawing.Size(108, 22);
             this.lblRoomWid.TabIndex = 10;
@@ -176,7 +176,7 @@
             // 
             this.lblFt2.AutoSize = true;
             this.lblFt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFt2.Location = new System.Drawing.Point(220, 332);
+            this.lblFt2.Location = new System.Drawing.Point(220, 335);
             this.lblFt2.Name = "lblFt2";
             this.lblFt2.Size = new System.Drawing.Size(25, 22);
             this.lblFt2.TabIndex = 11;
@@ -186,7 +186,7 @@
             // 
             this.lblIn2.AutoSize = true;
             this.lblIn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIn2.Location = new System.Drawing.Point(276, 332);
+            this.lblIn2.Location = new System.Drawing.Point(276, 335);
             this.lblIn2.Name = "lblIn2";
             this.lblIn2.Size = new System.Drawing.Size(29, 22);
             this.lblIn2.TabIndex = 12;
@@ -229,7 +229,7 @@
             // 
             // txtWidthFt
             // 
-            this.txtWidthFt.Location = new System.Drawing.Point(244, 334);
+            this.txtWidthFt.Location = new System.Drawing.Point(244, 337);
             this.txtWidthFt.Name = "txtWidthFt";
             this.txtWidthFt.Size = new System.Drawing.Size(25, 20);
             this.txtWidthFt.TabIndex = 19;
@@ -243,7 +243,7 @@
             // 
             // txtWidthIn
             // 
-            this.txtWidthIn.Location = new System.Drawing.Point(302, 334);
+            this.txtWidthIn.Location = new System.Drawing.Point(302, 337);
             this.txtWidthIn.Name = "txtWidthIn";
             this.txtWidthIn.Size = new System.Drawing.Size(25, 20);
             this.txtWidthIn.TabIndex = 20;
@@ -280,7 +280,7 @@
             this.cbCarpeting.Items.AddRange(new object[] {
             "Berber",
             "Pattern"});
-            this.cbCarpeting.Location = new System.Drawing.Point(401, 275);
+            this.cbCarpeting.Location = new System.Drawing.Point(401, 286);
             this.cbCarpeting.Name = "cbCarpeting";
             this.cbCarpeting.Size = new System.Drawing.Size(133, 21);
             this.cbCarpeting.TabIndex = 22;
@@ -306,10 +306,11 @@
             this.radioRegular.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioRegular.Location = new System.Drawing.Point(24, 65);
             this.radioRegular.Name = "radioRegular";
-            this.radioRegular.Size = new System.Drawing.Size(175, 23);
+            this.radioRegular.Size = new System.Drawing.Size(74, 23);
             this.radioRegular.TabIndex = 1;
             this.radioRegular.TabStop = true;
-            this.radioRegular.Text = "Regular ($1.99 x SQ Ft)";
+            this.radioRegular.Text = "Regular";
+            this.toolTip1.SetToolTip(this.radioRegular, "($1.99 x SQ Ft)");
             this.radioRegular.UseVisualStyleBackColor = true;
             // 
             // radioSameDay
@@ -318,10 +319,11 @@
             this.radioSameDay.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioSameDay.Location = new System.Drawing.Point(24, 31);
             this.radioSameDay.Name = "radioSameDay";
-            this.radioSameDay.Size = new System.Drawing.Size(191, 23);
+            this.radioSameDay.Size = new System.Drawing.Size(90, 23);
             this.radioSameDay.TabIndex = 0;
             this.radioSameDay.TabStop = true;
-            this.radioSameDay.Text = "Same Day ($3.95 x SQ Ft)";
+            this.radioSameDay.Text = "Same Day";
+            this.toolTip1.SetToolTip(this.radioSameDay, "($3.95 x SQ Ft)");
             this.radioSameDay.UseVisualStyleBackColor = true;
             // 
             // groupExtras
@@ -343,10 +345,10 @@
             this.checkStain.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkStain.Location = new System.Drawing.Point(34, 58);
             this.checkStain.Name = "checkStain";
-            this.checkStain.Size = new System.Drawing.Size(196, 23);
+            this.checkStain.Size = new System.Drawing.Size(140, 23);
             this.checkStain.TabIndex = 1;
-            this.checkStain.Text = "Stain Remover Kit ($59.95)";
-            this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush");
+            this.checkStain.Text = "Stain Remover Kit";
+            this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush ($59.95)");
             this.checkStain.UseVisualStyleBackColor = true;
             // 
             // checkAllergyCoat
@@ -355,9 +357,10 @@
             this.checkAllergyCoat.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkAllergyCoat.Location = new System.Drawing.Point(34, 28);
             this.checkAllergyCoat.Name = "checkAllergyCoat";
-            this.checkAllergyCoat.Size = new System.Drawing.Size(224, 23);
+            this.checkAllergyCoat.Size = new System.Drawing.Size(123, 23);
             this.checkAllergyCoat.TabIndex = 0;
-            this.checkAllergyCoat.Text = "Allergy Coating ($0.55 x SQ Ft)";
+            this.checkAllergyCoat.Text = "Allergy Coating";
+            this.toolTip1.SetToolTip(this.checkAllergyCoat, "($0.55 x SQ Ft)");
             this.checkAllergyCoat.UseVisualStyleBackColor = true;
             // 
             // lblQoute1
@@ -417,6 +420,7 @@
             // btnClose
             // 
             this.btnClose.AutoSize = true;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(511, 706);
             this.btnClose.Name = "btnClose";
@@ -429,7 +433,7 @@
             // picCarpet
             // 
             this.picCarpet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picCarpet.Location = new System.Drawing.Point(581, 274);
+            this.picCarpet.Location = new System.Drawing.Point(581, 285);
             this.picCarpet.Name = "picCarpet";
             this.picCarpet.Size = new System.Drawing.Size(117, 101);
             this.picCarpet.TabIndex = 25;
@@ -513,21 +517,22 @@
             // 
             this.lblTotalSQ.AutoSize = true;
             this.lblTotalSQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSQ.Location = new System.Drawing.Point(340, 308);
+            this.lblTotalSQ.Location = new System.Drawing.Point(97, 364);
             this.lblTotalSQ.Name = "lblTotalSQ";
-            this.lblTotalSQ.Size = new System.Drawing.Size(169, 22);
+            this.lblTotalSQ.Size = new System.Drawing.Size(142, 22);
             this.lblTotalSQ.TabIndex = 35;
-            this.lblTotalSQ.Text = "Room Total SQ feet";
+            this.lblTotalSQ.Text = "Room Total Size";
             // 
             // lblTotalSQFeet
             // 
-            this.lblTotalSQFeet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSQFeet.Location = new System.Drawing.Point(340, 334);
+            this.lblTotalSQFeet.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.lblTotalSQFeet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTotalSQFeet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblTotalSQFeet.Location = new System.Drawing.Point(245, 366);
             this.lblTotalSQFeet.Name = "lblTotalSQFeet";
-            this.lblTotalSQFeet.Size = new System.Drawing.Size(153, 21);
+            this.lblTotalSQFeet.Size = new System.Drawing.Size(82, 20);
             this.lblTotalSQFeet.TabIndex = 36;
-            this.lblTotalSQFeet.Text = "Room Width";
-            this.lblTotalSQFeet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTotalSQFeet.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // imageList1
             // 
