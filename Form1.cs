@@ -77,8 +77,8 @@ namespace Carpet_Mounters
             roomTotalFoot = Math.Round(roomTotalFoot, 2);
             lblTotalSQFeet.Text = roomTotalFoot.ToString();
         }
-        
-        
+
+
         //random number generator function 
         private void GenerateRandom()
         {
@@ -114,14 +114,18 @@ namespace Carpet_Mounters
             radioSameDay.Checked = false;
             checkAllergyCoat.Checked = false;
             checkStain.Checked = false;
+            cbLocation.Text = "Choose Location Type";
+            cbCarpeting.Text = "Choose Carpeting";
         }
 
         //order calculation
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            //string summaryMessage = "Location Type"
             CalculateRoom();
-            //MessageBox.Show("Location Type:", "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            //text for message box
+            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?\n", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text );
+            MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
