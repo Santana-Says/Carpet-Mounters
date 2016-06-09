@@ -58,3 +58,11 @@ C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet_Mounters.Propert
 C:\Users\Santana\Source\Repos\Carpet-Mounters2\obj\Debug\Carpet Mounters.csproj.GenerateResource.Cache
 C:\Users\Santana\Source\Repos\Carpet-Mounters2\bin\Debug\Carpet Mounters.exe
 C:\Users\Santana\Source\Repos\Carpet-Mounters2\bin\Debug\Carpet Mounters.pdb
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet Mounters.exe
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet Mounters.pdb
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\bin\Debug\Carpet Mounters.exe
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\bin\Debug\Carpet Mounters.pdb
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet Mounters.csprojResolveAssemblyReference.cache
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet_Mounters.CarpetMounters.resources
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet_Mounters.Properties.Resources.resources
+C:\Users\Santana\Source\Repos\Carpet-Mounters3\obj\Debug\Carpet Mounters.csproj.GenerateResource.Cache
