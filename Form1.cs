@@ -144,6 +144,7 @@ namespace Carpet_Mounters
             txtWidthFt.Text = "";
             txtLengthIn.Text = "";
             txtWidthIn.Text = "";
+            lblTotalSQFeet.Text = "";
 
             lblQuote2.Text = "";
             radioBurgandy.Checked = false;
