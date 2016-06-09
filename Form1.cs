@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Carpet_Mounters
 {
@@ -21,7 +22,6 @@ namespace Carpet_Mounters
             InitializeComponent();
             GenerateRandom();
         }
-
 
         //function to validate integers for feet inch, if invalid display error message
         private void ValidateInt(string label1, string label2, string boxtext, ref int result)
@@ -78,6 +78,45 @@ namespace Carpet_Mounters
             lblTotalSQFeet.Text = roomTotalFoot.ToString();
         }
 
+        //phone number validation
+        public bool isValidPhone(string phone)
+        {
+            string tempPhone;
+            tempPhone = @"^\(\d{3}\)\s\-\d{3}\-\d{4}$";
+
+            Regex myreg = new Regex(tempPhone);
+
+            return myreg.IsMatch(phone);
+        }
+
+        private void txtPhone_Validating(object sender, CancelEventArgs e)
+        {
+            if (!isValidPhone(txtPhone.Text))
+            {
+                MessageBox.Show("Invalid Phone Number. Must be (XXX) -XXX-XXXX");
+                txtPhone.Focus();
+                txtPhone.SelectAll();
+            }
+        }
+
+        //name validation
+        public bool isValidName(string name)
+        {
+            string tempName;
+            tempName = @"^[A-Z]{1,30}$";
+            Regex myregn = new Regex(tempName, RegexOptions.IgnoreCase);
+            return myregn.IsMatch(name);
+        }
+
+        private void txtName_Validating(object sender, CancelEventArgs e)
+        {
+            if(!isValidName(txtName.Text))
+            {
+                MessageBox.Show("Invalid name. Must be a name 1-30 characters in length(a-z only).");
+                txtName.Focus();
+                txtName.SelectAll();
+            }
+        }
 
         //random number generator function 
         private void GenerateRandom()
@@ -105,6 +144,7 @@ namespace Carpet_Mounters
             txtWidthFt.Text = "";
             txtLengthIn.Text = "";
             txtWidthIn.Text = "";
+            lblTotalSQFeet.Text = "";
 
             lblQuote2.Text = "";
             radioBurgandy.Checked = false;
