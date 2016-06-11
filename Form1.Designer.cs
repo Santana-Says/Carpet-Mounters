@@ -198,6 +198,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
             this.txtName.TabIndex = 13;
+            this.txtName.Validating += new System.ComponentModel.CancelEventHandler(this.txtName_Validating);
             // 
             // txtStreet
             // 
@@ -212,6 +213,7 @@
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(100, 20);
             this.txtCity.TabIndex = 15;
+            this.txtCity.Validating += new System.ComponentModel.CancelEventHandler(this.txtName_Validating);
             // 
             // txtPhone
             // 
@@ -219,6 +221,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(100, 20);
             this.txtPhone.TabIndex = 16;
+            this.txtPhone.Validating += new System.ComponentModel.CancelEventHandler(this.txtPhone_Validating);
             // 
             // txtLengthFt
             // 
@@ -303,6 +306,7 @@
             // radioRegular
             // 
             this.radioRegular.AutoSize = true;
+            this.radioRegular.Checked = true;
             this.radioRegular.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioRegular.Location = new System.Drawing.Point(24, 65);
             this.radioRegular.Name = "radioRegular";
@@ -334,7 +338,7 @@
             this.groupExtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupExtras.Location = new System.Drawing.Point(433, 522);
             this.groupExtras.Name = "groupExtras";
-            this.groupExtras.Size = new System.Drawing.Size(270, 107);
+            this.groupExtras.Size = new System.Drawing.Size(270, 111);
             this.groupExtras.TabIndex = 26;
             this.groupExtras.TabStop = false;
             this.groupExtras.Text = "Extras";
@@ -343,19 +347,19 @@
             // 
             this.checkStain.AutoSize = true;
             this.checkStain.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkStain.Location = new System.Drawing.Point(34, 58);
+            this.checkStain.Location = new System.Drawing.Point(41, 62);
             this.checkStain.Name = "checkStain";
             this.checkStain.Size = new System.Drawing.Size(140, 23);
             this.checkStain.TabIndex = 1;
             this.checkStain.Text = "Stain Remover Kit";
-            this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush ($59.95)");
+            this.toolTip1.SetToolTip(this.checkStain, "Includes: Bucket, Stain Remover, & Brush ($19.95)");
             this.checkStain.UseVisualStyleBackColor = true;
             // 
             // checkAllergyCoat
             // 
             this.checkAllergyCoat.AutoSize = true;
             this.checkAllergyCoat.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkAllergyCoat.Location = new System.Drawing.Point(34, 28);
+            this.checkAllergyCoat.Location = new System.Drawing.Point(41, 32);
             this.checkAllergyCoat.Name = "checkAllergyCoat";
             this.checkAllergyCoat.Size = new System.Drawing.Size(123, 23);
             this.checkAllergyCoat.TabIndex = 0;
@@ -390,7 +394,7 @@
             this.lblQuote2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuote2.Location = new System.Drawing.Point(433, 650);
             this.lblQuote2.Name = "lblQuote2";
-            this.lblQuote2.Size = new System.Drawing.Size(96, 31);
+            this.lblQuote2.Size = new System.Drawing.Size(141, 31);
             this.lblQuote2.TabIndex = 30;
             // 
             // btnOrder
