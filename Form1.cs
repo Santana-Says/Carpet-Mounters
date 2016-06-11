@@ -15,7 +15,8 @@ namespace Carpet_Mounters
     {
         //module level variables
         int roomLengthFeet = 0, roomLengthInch = 0, roomWidthFeet = 0, roomWidthInch = 0;
-        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0;
+        double roomTotalFoot = 0.0, roomTotalInch = 0.0, quoteTotal = 0.0, carpetPrice = 0.0, locationPrice = 0.0, instalPrice = 0.0, allergyCoat = 0.0, stain = 0.0, extras = 0.0;
+        string colorScheme, installation;
         
         public CarpetMounters()
         {
@@ -107,7 +108,7 @@ namespace Carpet_Mounters
             Regex myregn = new Regex(tempName, RegexOptions.IgnoreCase);
             return myregn.IsMatch(name);
         }
-
+        
         private void txtName_Validating(object sender, CancelEventArgs e)
         {
             if(!isValidName(txtName.Text))
@@ -163,14 +164,60 @@ namespace Carpet_Mounters
         {
             CalculateRoom();
 
+            //Color choice 
+            if (radioBurgandy.Checked)
+                colorScheme = "Burgandy";
+            else if (RadioCharcoal.Checked)
+                colorScheme = "Charcoal";
+            else if (radioIvory.Checked)
+                colorScheme = "Ivory";
+            else
+                colorScheme = "Tbd";
+
+            //installation & extras
+            if (radioSameDay.Checked)
+            {
+                installation = "Same Day";
+                instalPrice = carpetPrice + 3.95;
+            }
+            else
+            {
+                installation = "Regular";
+                instalPrice = carpetPrice + 1.99;
+            }
+
+            if (checkAllergyCoat.Checked)
+                allergyCoat = .20 * roomTotalFoot;
+            else
+                allergyCoat = 0.0;
+            if (checkStain.Checked)
+                stain = 19.95;
+            else
+                allergyCoat = 0.0;
+            extras = allergyCoat + stain;
+
+            //show price
+            quoteTotal = locationPrice + (instalPrice * roomTotalFoot) + extras;
+
+            lblQuote2.Text = quoteTotal.ToString();
+            
             //text for message box
-            string summaryMessage = string.Format("Location Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: ?\n", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text );
-            MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            string summaryMessage = string.Format("Is this correct?\n\nLocation Type: {0}\nCarpet Selection: {1}\nInterior Size: {2}sqft.\nColor Choice: {3}\nInstall Type: {4}\n", cbLocation.Text, cbCarpeting.Text, lblTotalSQFeet.Text, colorScheme, installation);
+            DialogResult result1 = MessageBox.Show(summaryMessage, "Quote Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result1 == DialogResult.Yes)
+            {
+                DialogResult result2 = MessageBox.Show("Your order has been placed, Thank you.", "Order Placement", MessageBoxButtons.OK);
+                if (result2 == DialogResult.OK)
+                    this.Close();
+            }
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result1 = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result1 == DialogResult.Yes)
+                this.Close();
         }
 
         //link pic boxes to combo boxes
@@ -180,12 +227,15 @@ namespace Carpet_Mounters
             {
                 case 0:
                     picLocation.Image = imageList1.Images["apartment.jpg"];
+                    locationPrice = 250;
                     break;
                 case 1:
                     picLocation.Image = imageList1.Images["house.jpg"];
+                    locationPrice = 350;
                     break;
                 case 2:
                     picLocation.Image = imageList1.Images["biz.jpg"];
+                    locationPrice = 300;
                     break;
             }
         }
@@ -196,9 +246,11 @@ namespace Carpet_Mounters
             {
                 case 0:
                     picCarpet.Image = imageList1.Images["berber.jpg"];
+                    carpetPrice = .75;
                     break;
                 case 1:
                     picCarpet.Image = imageList1.Images["pattern.jpg"];
+                    carpetPrice = 1.28;
                     break;
             }
         }
